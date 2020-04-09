@@ -39,8 +39,5 @@ print(scores)
 print("Accuracy :",scores.mean())
 
 
-from sklearn.model_selection import cross_val_score
-
-
 
 
