@@ -39,7 +39,7 @@ print(X_test)
 print(Y_train)
 print(Y_test)
 
-#Coverting all training & testing values into range(-1 to 1)
+#Coverting all training & testing values into range
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
 X_trainscale = scaler.fit_transform(X_train)
